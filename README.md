@@ -22,7 +22,7 @@
 
 ```shell
 pip install -r requirements.txt
-python3 課表檔案.csv [輸出檔名.ics]
+python3 main.py 課表檔案.csv [輸出檔名.ics]
 ```
 
 其中，課表檔案暫時可以透過[複製課程網預選清單](https://nol.ntu.edu.tw/nol/coursesearch/myschedule.php)，貼上到試算表軟體後存為 CSV 格式產生，格式可以參考 [sample.csv](./sample.csv)。基本上把整個表格複製貼上格式就會是對的了。
