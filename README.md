@@ -1,4 +1,4 @@
-# khò-ji̍t 課曆
+# khò-ji̍t 課日
 
 一個把台大課程網產生的預選課程清單轉成 .ics 格式，方便匯入 Google Calendar、Apple iCloud Calendar 等行事曆軟體的小工具
 
@@ -21,6 +21,7 @@
 ## 使用它無比簡單
 
 ```shell
+pip install -r requirements.txt
 python3 課表檔案.csv [輸出檔名.ics]
 ```
 
